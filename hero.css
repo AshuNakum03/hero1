@@ -8,15 +8,13 @@
     height: 120vh;
     width: 100%;
     margin-top: 26px;
-    /* width: 100%; */
     background-size: cover;
-    /* flex-direction: column; */
-    /* background-position: 100% 50%; */
 }
 
 @media screen and (max-width: 500px) {
     .gh {
       margin-top: 86px;
+      height: 60vh;
     }
   }
 
@@ -24,8 +22,6 @@
     font-size: 20px;
     padding-bottom: 8px;
     padding-top: 8px;
-    /* position: sticky; */
-    /* z-index: 1; */
     top: 0;
 }
 
@@ -84,8 +80,7 @@ body {
 }
 .ashu {
  background-image: url(pic.jpeg); 
- /* height: calc(133vh - 130px);  */
-    padding: 40px 0;
+     padding: 40px 0;
            background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
