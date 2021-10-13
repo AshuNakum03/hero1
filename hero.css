@@ -10,7 +10,6 @@
     margin-top: 26px;
     background-size: cover;
 }
-
 @media screen and (max-width: 500px) {
     .gh {
       margin-top: 86px;
@@ -18,11 +17,18 @@
     }
   }
 
+
+  @media screen and (max-width: 990px) {
+    .gh {
+        margin-top: 86px;
+    }
+  }
+
 .nest{
     font-size: 20px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    top: 0;
+    /* padding-bottom: 8px;
+    padding-top: 8px; */
+    /* top: 0; */
 }
 
 .lett{
@@ -146,6 +152,7 @@ i{
     text-align: center;
     padding-bottom: 15px;
     margin-bottom: 1px;
+    flex: 100%;
 }
 /* .logo-image{
     width: 60px;
